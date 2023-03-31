@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="./assets/favicon-icon.png" />
+
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,800&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles2.css" />
+
+		<title>Recipe Website</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- header  -->
+			<header>
+				<h2>RecipeZone</h2>
+			</header>
+			<!-- search  -->
+			<div class="search">
+				<form action="">
+					<input
+						class="searchInput"
+						type="text"
+						name="search"
+						placeholder="Search Recipe..."
+					/>
+					<button class="searchBtn" type="submit">Search</button>
+				</form>
+			</div>
+
+			<!-- recipe grid  START-->
+
+			<div class="gallery">
+				<div>
+					<!-- <img class="recipeImg" src="./assets/pic.jpg" alt="food-item">
+					<h3>Chicken</h3>
+				</div>
+				<button id="openModal">Open Modal</button> -->
+			</div>
+			<!-- recipe grid END -->
+
+			<!-- recipe details on clicking START--> 
+			<!-- <button id="openModal">Open Modal</button> -->
+			<!-- <div id="modalContainer">
+				<div class="modalContent">
+					<span id="closeModal">&times;</span>
+					<img class="recipeImg" src="./assets/pic.jpg" alt="food-item">
+					<h2>chicken 65</h2>
+					<p class="summary">Integer ut velit in nunc gravida gravida id eget ipsum. Mauris at laoreet orci, vel dictum lectus. Nam risus dolor, gravida quis risus eu, egestas consequat neque. In vehicula at neque a dapibus. Integer lobortis nisl at diam hendrerit tincidunt. Donec iaculis bibendum malesuada. Aliquam nec aliquam urna.</p>
+					<div class="recipeInstructions">
+						<h3>Recipe Instructions : </h3>
+							<ol>
+								<li> do this</li>
+								<li>do that</li>
+								<li>do it now!</li>
+							</ol>
+					</div>	
+				</div>
+			</div> -->
+      
+			<!-- recipe details on clicking END -->
+			
+
+      <!-- Error Modal -->
+      <div id="error">
+        <h3>Search Again No Recipe Found !!!</h3>
+      </div>
+		</div>
+
+		<script src="index1.js"></script>
+		<script src="index2.js"></script>
+	</body>
+</html>
